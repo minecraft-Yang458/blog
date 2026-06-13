@@ -1,0 +1,19 @@
+baseURL = 'https://yang458.cc.cd/'
+locale = 'zh-cn'
+title = "Yang458’s blog"
+theme = 'PaperMod'
+[params]
+  showSearch = true
+  mainSections = ["posts"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "搜索本站..."
+    url = "/search/"
+    weight = 10
